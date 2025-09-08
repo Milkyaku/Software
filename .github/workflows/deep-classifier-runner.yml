@@ -42,7 +42,7 @@ jobs:
           blobContainerName: vscode-issue-classifier
           token: ${{secrets.VSCODE_ISSUE_TRIAGE_BOT_PAT}}
       - name: Set up Python 3.7
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: 3.7
       - name: Install dependencies
